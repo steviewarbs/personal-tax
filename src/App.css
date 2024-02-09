@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
-}
+/* App.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #4caf50;
   color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  flex: 1;
+  max-width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  width: calc(50% - 5px);
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.refresh-button {
+  background-color: #2196f3;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.results h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+.info-section {
+  margin-top: 20px;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+.info-section h2 {
+  color: #333;
+  font-size: 24px;
+}
+
+.info-section p {
+  font-size: 20px;
+}
+
+.footer {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #333;
+  color: white;
+  width: 100%;
+}
+
+/* Additional Styles for Manchester-based Tax Assistance Companies Section */
+.manchester-tax-assistance {
+  background-color: #e0e0e0; /* Adjust the color as needed */
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px; /* Add rounded corners */
+}
+
+.manchester-tax-assistance h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.manchester-tax-assistance p {
+  font-size: 20px;
+  margin-bottom: 5px;
 }
