@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/personal-tax/static/css/main.fbeaffdf.css",
-    "main.js": "/personal-tax/static/js/main.9ddbf116.js",
+    "main.js": "/personal-tax/static/js/main.8732d68f.js",
     "static/js/592.708835b3.chunk.js": "/personal-tax/static/js/592.708835b3.chunk.js",
     "index.html": "/personal-tax/index.html",
     "main.fbeaffdf.css.map": "/personal-tax/static/css/main.fbeaffdf.css.map",
-    "main.9ddbf116.js.map": "/personal-tax/static/js/main.9ddbf116.js.map",
+    "main.8732d68f.js.map": "/personal-tax/static/js/main.8732d68f.js.map",
     "592.708835b3.chunk.js.map": "/personal-tax/static/js/592.708835b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbeaffdf.css",
-    "static/js/main.9ddbf116.js"
+    "static/js/main.8732d68f.js"
   ]
 }
