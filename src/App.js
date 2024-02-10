@@ -93,7 +93,6 @@ function App() {
           </div>
         )}
 
-        {/* Additional Section for Manchester-based Tax Assistance Companies */}
         <div className="manchester-tax-assistance">
           <h2>Manchester-based Tax Assistance Companies</h2>
           <p>
