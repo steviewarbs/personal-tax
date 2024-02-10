@@ -87,7 +87,7 @@ function App() {
               </strong>
               <br />
               <span style={{ color: 'red' }}>
-                (Please note this is only and estimate, for financial advise contact a legal advisor)
+                (Please note this is only an estimate, for financial advise contact a legal advisor)
               </span>
             </p>
           </div>
