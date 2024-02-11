@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
       <div className="header">
-        <h1>Personal Allowance Tax Calculator</h1>
+        <h1>Personal Tax Allowance Calculator</h1>
         <div className="header-links">
         </div>
       </div>
@@ -52,7 +52,7 @@ function App() {
         <div className="manchester-tax-assistance">
           <h2>About the App</h2>
           <p>
-            Welcome to the Tax Calculator App designed to help individuals estimate their UK personal tax allowance for the tax year 2024/25.
+            Welcome to the Tax Calculator App designed to help individuals estimate their <b>UK personal tax allowance</b> for the tax year 2024/25.
             This application simplifies the process of calculating personal allowances, taking into account the regulations set by the UK government.
           </p>
           <p>
